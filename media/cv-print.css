@@ -52,11 +52,18 @@ table {
 /* faux Wikipedia logo font */
 @font-face { font-family: 'Linux Libertine'; font-style: normal; font-weight: 400; src: local('Linux Libertine'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/400.woff) format('woff'); } .fa-wikipedia:before { font-family: 'Linux Libertine', 'Times New Roman', Times, serif; font-weight: 400; content: "W"; }
 
+blockquote p {
+    font-style: italic;
+    background-color: rgb(236, 236, 236);
+    padding: 0.5em;
+
+}
+
 body {
 	font: normal normal 400;
 	font-size: 9pt;
 	line-height: 1.35em;
-	font-family: "Open sans", sans-serif;
+	font-family: "Linux Biolinum O", 'Linux Libertine', serif;
 	/*margin-top: 1em;
 	margin-left: 1em;*/
 }
@@ -71,8 +78,8 @@ p {
 
 code {
 	font: normal normal;
-	font-size: 70%;
-	font-family: Menlo, monospace,s ans-serif;
+	font-size: 80%;
+	font-family: 'Dejavu Sans', monospace,sans-serif;
 	color: #444;
 }
 
@@ -88,9 +95,9 @@ ul {
 	width: 65%;
 	margin-bottom: 1em;
 	margin-top: 2em;
-	columns: 3;
-	-webkit-columns: 3;
-	-moz-columns: 3;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
 }
 
 li {
@@ -105,7 +112,7 @@ li ul {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Cousine,Verdana,sans-serif;
+	font-family: 'Dejavu Sans',Verdana,sans-serif;
 	width: 65%;
 }
 
@@ -129,7 +136,7 @@ h1+p {
 
 h2 {
 	font-size: 1.1em;
-	color: #a00;
+	color: #444;
 	margin-top: 1em;
 	position: relative;
 	top: 1.5em;
@@ -137,9 +144,9 @@ h2 {
 	width: 18%;
 }
 
-h2+p {
+/*h2+p {
 	margin-top: 2.1em;
-}
+}*/
 
 h3 {
 	color: #F07415;
@@ -194,9 +201,9 @@ strong {
 }
 
 .footer {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 		position: relative;
 		left: 33%;
 		margin-top: 2em;
