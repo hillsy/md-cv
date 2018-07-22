@@ -21,7 +21,7 @@ Working in the Platforms, Infrastructure and Live Services directorate of NHS
 Digital, based in Leeds. My time is split between developing new infrastructure
 and services, improving legacy services run by the Information Standards team
 (usually via DevOps principles), and normal operational tasks such as third line
-support.
+support, monitoring and remediation.
 
 My 2018 performance review said:
 
@@ -44,14 +44,15 @@ _Senior Technical Consultant - Platforms, Infrastructure and Live Services_
 * Reducing costs, cycle times and rework by identifying and removing technical and process constraints.
 * Obtaining support and resources for changes to working practice.
 * Introducing new tooling to support the changes.
+* Knowledge transfer and documentation.
 
 `2014`
 __NHS Improving Quality__
 
 _Programme Manager - Health and Care Improvement Massive Open Online Course (MOOC)_
 
-* Developed iterative plan compliant with GOV.UK Digital by Default Service Standard, but also with flexibility to meet short term organisational goals and budget constraints.
-* Coordinated UK and Swedish partners in discovery, strategy, content development, technical implementation, and evaluation phases
+* Developed iterative project plan compliant with GOV.UK Digital by Default Service Standard, but also with flexibility to meet short term organisational goals and budget constraints.
+* Coordinated UK and Swedish partners in discovery, strategy, content development, technical implementation, and evaluation phases.
 * Systems analysis and technical platform selection.
 
 `2012-2014`
@@ -87,7 +88,7 @@ __ADC Telecommunications, Inc__
 _Technical Writer_
 
 ## Technical skills
- <!-- TODO: proficiency -->
+ <!-- TODO: proficiency level -->
 
 * **Cloud computing:** AWS, Azure
 * **Databases:** Microsoft SQL Server, MySQL, SQLite
